@@ -61,8 +61,9 @@ namespace GITHUBCommitAnalyzer.Services
                                 if (line.StartsWith("+ ") && (line.Contains("public") || line.Contains("private") || line.Contains("protected") || line.Contains("internal") || line.Contains("static")))
                                     cl.NewMethodSignature = line.Replace("+ ", ""); 
 
-                                 if(cl.OldMethodSignature != null && cl.NewMethodSignature != null && cl.OldMethodSignature != cl.NewMethodSignature) commitList.Add(cl);
                             }
+                            if (cl.OldMethodSignature != null && cl.NewMethodSignature != null && cl.OldMethodSignature != cl.NewMethodSignature) commitList.Add(cl);
+
 
                         }
                     }

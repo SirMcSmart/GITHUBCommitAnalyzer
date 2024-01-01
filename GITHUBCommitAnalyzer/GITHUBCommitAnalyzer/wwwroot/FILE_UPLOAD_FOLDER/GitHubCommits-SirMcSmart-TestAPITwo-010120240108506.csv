@@ -1,0 +1,4 @@
+CommitSHA,FileName,OldMethodSignature,NewMethodSignature
+018a3d1507401f99253e9988411dcd2e495538b2,TestAPITwo/TestAPITwo/Controllers/WeatherForecastController.cs,"       public IEnumerable<WeatherForecast> GetCountryWeatherForecast(string weather, string country)","       //public IEnumerable<WeatherForecast> GetCountryWeatherForecast([FromQuery] string weather, [FromQuery] string country)"
+56326647c09f97a208095fb550779d2b614958a6,TestAPITwo/TestAPITwo/Controllers/WeatherForecastController.cs,"       public async Task<IActionResult> CheckValidEmail(string email)","       public async Task<IActionResult> CheckValidEmail(string email, string tester)"
+0669b828690f504c5f8e20924bd984c7ecca2d76,TestAPITwo/TestAPITwo/Controllers/WeatherForecastController.cs,"       public IEnumerable<WeatherForecast> GetCountryWeatherForecast(string weather)","       public IEnumerable<WeatherForecast> GetCountryWeatherForecast(string weather, string country)"
