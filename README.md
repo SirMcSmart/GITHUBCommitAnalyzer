@@ -1,5 +1,4 @@
 # GITHUBCommitAnalyzer
-GITHUB Commit Analyzer
 
 <======================================================================================>
                                GITHUB Commit Analyzer
@@ -8,13 +7,13 @@ GITHUB Commit Analyzer
 Download and install Visual Studio 2022 Community Version
 https://visualstudio.microsoft.com/downloads/
 
-Select only ASP.NET and web development while installing
+Select only ASP.NET and web development while installing.
 
-Open the Visual Studio 2022 IDE from the start menu
+Once the installation is completed, Open the Visual Studio 2022 IDE from the start menu
 
 Select "Clone a repository" option from the "Get started list"
 
-paste "https://github.com/SirMcSmart/GITHUBCommitAnalyzer.git" in the "Repository location" field.
+Paste "https://github.com/SirMcSmart/GITHUBCommitAnalyzer.git" in the "Repository location" field.
 
 Select a local path on your computer for the "Path" feild.
 
@@ -34,12 +33,15 @@ Click on the button "Try it out" which will allow you to test any of the below p
   "username": "SirMcSmart",
   "repoName": "TestAPIOne"
 }
+
+or
+
 {
   "username": "SirMcSmart",
   "repoName": "TestAPITwo"
 }
 
-Please note that the output will be in a CSV file 
+Please note that the output will be in a CSV file and can be found in the selected local path for the project.
 ..\GITHUBCommitAnalyzer\GITHUBCommitAnalyzer\GITHUBCommitAnalyzer\wwwroot\FILE_UPLOAD_FOLDER
 
 <======================================================================================>
